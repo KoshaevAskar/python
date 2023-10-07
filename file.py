@@ -11,5 +11,6 @@ print("Hello "+"World")#конкатенация
 side = input("Введите сторону квадрата")
 side = int (side)
 s = side * side
-print("Площфдь квадрата равна"  + str (s))
+print("Площадь квадрата равна"  + str (s))
+
 
