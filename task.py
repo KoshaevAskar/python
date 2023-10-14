@@ -19,6 +19,8 @@ number = int(input('Введите число:'))
 first = number // 100
 
 third = number % 10
-second =  number // 10 %10
+second =  number // 10 %10 
 print(third + first + second )
+
+
 
