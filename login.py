@@ -6,6 +6,4 @@ log= "askar"
 if login == log and password==right_pass:
     print("Вы вошли")
 else: 
-    print("логин неверный и вы не вошли")
-
-
+    print("логин неверный")
