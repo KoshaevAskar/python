@@ -5,5 +5,5 @@ right_pass = "2222"
 log= "askar"
 if login == log and password==right_pass:
     print("Вы вошли")
-else: 
+else:      
     print("логин неверный")
