@@ -1,11 +1,3 @@
-for counter  in range(10):
-    print(counter)
 
-for counter  in range(10):
-    print("You are welcome")
 
-for sandwich in range(5):
-    print(f"я сделал 5 сендвичей") 
 
-for i in range(100,201,100):
-    print(i)
