@@ -22,5 +22,7 @@ while True:
             print(f"{i}. {wish}")
         delete_index = input (f"{name}, введите номер желания для удаления:")
         delete_index = int(delete_index)
+        delete_index = int (delete_index) - 1
+        delete_wish = wishlist.pop(delete_index)
     input("нажмите Enter, чтобы продолжить")
     
