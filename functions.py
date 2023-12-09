@@ -65,7 +65,7 @@ def craft():
                 inventory.append(choice_recept)
                 print(f"В инвентарь добавлен{choice_recept}")
                 print("не хватает ингредиентов")
-
+                                 
 
 while True:
     key = input("введите клавишу:")
