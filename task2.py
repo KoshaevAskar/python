@@ -17,6 +17,4 @@
 def  cel_to_far(cel):
     return cel * (9/5)+32
 
-print(cel_to_far(25))
-
-      
+print(cel_to_far(25)):
