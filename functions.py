@@ -67,20 +67,20 @@ def craft():
                 print("не хватает ингредиентов")
                                  
 
-while True:
-    key = input("введите клавишу:")
-    if key =="w":
-        robot_formard()
-    elif key == "s":
-        robot_backward()
-    elif key == "a":
-        robot_left()
-    elif key == "d":
-        robot_right()
-    elif key == "f":
-       item = robot_scan()
-       robot_pickup(item) 
-    elif key =="e":
-        check_inventory() 
-    elif key =="c":
-        craft()
+    while True:
+        key = input("введите клавишу:")
+        if key =="w":
+            robot_formard()
+        elif key == "s":
+            robot_backward()
+        elif key == "a":
+            robot_left()
+        elif key == "d":
+            robot_right()
+        elif key == "f":
+        item = robot_scan()
+        robot_pickup(item) 
+        elif key =="e":
+            check_inventory() 
+        elif key =="c":
+            craft()

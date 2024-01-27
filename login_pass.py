@@ -1,3 +1,14 @@
+import calculator
+inport functions
+import wishlist
+
+
+
+
+
+
+
+
 def sign_up():
     login = input("Придумайте логин: ")
     password1 = input('Придумайте пароль: ')
@@ -54,7 +65,27 @@ while True:
             print('Спасибо за пользование программы')
             break
     elif access:
-            print('Вы в системе. Ураааааааааааааа')
+            print('меню:')
+            print("1 - запустить калькулятор")
+            print("2 - запустить текстокрафт")
+            print("3 - запустить вишь лист")
+            if action =="1":
+                calculator.main()
+            if action =="2":
+                functions.main()
+            if action =="3":
+                wishlist.main()
+                    
+
+                
+
+                
     input('Нажмите Enter, чтобы продолжить')
+    
+
+
+
+
+
 
 

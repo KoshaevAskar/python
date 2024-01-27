@@ -29,14 +29,14 @@ def input_number(input_prhase):
         return input_number(input_prhase)
     return int(x)
 
-
-while True: 
-    print('Меню')
-    print('1 - +')
-    print('2 - -')
-444444444444444444444444444444    print('4 - *')
-    x = input_number("Введите первое число")
-    y = input_number ("Введите второе  число")
+def main():
+    while True: 
+        print('Меню')
+        print('1 - +')
+        print('2 - -')
+        print('4 - *')
+        x = input_number("Введите первое число")
+        y = input_number ("Введите второе  число")
 
 
 
