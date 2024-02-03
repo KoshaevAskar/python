@@ -1,10 +1,11 @@
 from menu import choice_pizza
-#from order import show_order
-#from cots import show_cost
-#from pay import show_pay
-#from check import give_check
+from cost  import show_cost
+from pay import pay
+import time
 
 def start():
     choice_pizza()
-
-star()
+    time.sleep(2)
+    show_cost()
+    pay()
+start()
