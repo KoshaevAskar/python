@@ -26,3 +26,22 @@ class Human:
     def happy_birhtday (self):
         print( f"{self.name}  с др тебя пупсеночек")
 
+
+
+class PhraseDecoration:
+    def decorate(self, phrase):
+        line = '-' * (len(phrase)+4)
+        print(line)
+        print('|', phrase, '|')
+        print(line)
+
+
+
+
+text = PhraseDecoration()
+text.decorate('Я люблю АКC')
+class son(father):
+    pass       
+son = son("Роман", 18)
+
+
